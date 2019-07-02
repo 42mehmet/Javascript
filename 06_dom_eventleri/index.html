@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>DOM Eventleri</title>
+  </head>
+  <body>
+    <!-- ODEV 1 -->
+    <div class="container">
+      <h2 class="text-center">ODEV 1</h2>
+      <button id="btn-primary" class="btn btn-primary">Primary</button>
+      <button id="btn-danger" class="btn btn-danger">Danger</button>
+      <button id="btn-warning" class="btn btn-warning">Warning</button>
+      <button id="btn-delete" class="btn btn-dark">X</button>
+      <div id="alert1" class="mt-2 alert alert-primary">
+        Farkli renklerimi gormek icin yukaridaki butonlari kullanin!
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- ODEV 2 -->
+    <div class="container">
+      <h2 class="text-center">ODEV 2</h2>
+      <input id="text" class="form-control" type="text" placeholder="Yaziniz" />
+      <div id="alert2" class="mt-2 alert alert-dark">
+        Yukaridaki input alanini kullanarak beni degistirin!
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- ODEV 3 -->
+    <div class="container">
+      <h2 class="text-center">ODEV 3</h2>
+      <select id="select" class="mb-2 form-control">
+        <!-- <option value="">Matematik</option> -->
+      </select>
+      <ul id="list" class="list-group">
+        <!-- <li class="list-group-item d-flex justify-content-between align-items-center">
+          Matematik <span class="badge badge-primary badge-pill">90</span>
+        </li> -->
+      </ul>
+    </div>
+    <script src="click.js"></script>
+    <script src="input.js"></script>
+    <script src="select.js"></script>
+  </body>
+</html>
